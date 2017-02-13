@@ -19,17 +19,8 @@
 			<version>1.10.2-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
-        <!-- Delete this part if you don't need/want to use CreativelyNamedLib -->
-        <dependency>
-			<groupId>com.rayzr522</groupId>
-			<artifactId>creativelynamedlib</artifactId>
-			<version>1.0.0</version>
-			<scope>provided</scope>
-		</dependency>
 	</dependencies>
 	<build>
-        <!-- Add 'install' to the defaultGoal if you want to install the
-            JAR to your local Maven repository after it packages -->
 		<defaultGoal>clean test package</defaultGoal>
 		<finalName>${project.name}-${project.version}</finalName>
 		<sourceDirectory>${basedir}/src/main/java</sourceDirectory>
