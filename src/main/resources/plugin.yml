@@ -1,0 +1,12 @@
+main: com.rayzr522.joinspawn.JoinSpawn
+name: JoinSpawn
+version: 1.0.0
+description: Teleports players to the spawn of their current world when they join.
+author: Rayzr
+#depend: [CreativelyNamedLib]
+#commands:
+#  joinspawn:
+#    description: JoinSpawn main command
+#    aliases: [alias1,alias2]
+#    usage: "/joinspawn [command]"
+#    permission: JoinSpawn.main
